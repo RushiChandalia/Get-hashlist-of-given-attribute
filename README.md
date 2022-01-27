@@ -6,7 +6,7 @@ Note: Works for Metaplex's NFT metadata standards.
 
 ## Installation
 
-All you need is node.js and run the below command.
+All you need is the complete hashlist of the collection (You can use [Magic Eden Hashlist Finder](https://magiceden.io/mintlist-tool)), node.js and to run the below command.
 
 ```bash
 npm install
@@ -14,7 +14,7 @@ npm install
 
 ## Usage
 
-Put the complete list of hashlist inside `input` folder and name it to `hashlist.json` then open `app.js` in your IDE and edit the variables in line 8 and 9
+Put the complete hashlist inside `input` folder and name it to `hashlist.json` then open `app.js` in your IDE and edit the variables in line 8 and 9
 
 ```javascript
 //KEY and VALUE to check on Metadata
