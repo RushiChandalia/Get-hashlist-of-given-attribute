@@ -1,6 +1,6 @@
 const fs = require("fs");
-const getMetadataFromTokenAddress = require('./getMetadataFromTokenAddress.js');
-const getAndCheckJsonFromURI = require('./getAndCheckJsonFromURI.js');
+const getMetadataFromTokenAddress = require('./functions/getMetadataFromTokenAddress.js');
+const getAndCheckJsonFromURI = require('./functions/getAndCheckJsonFromURI');
 
 
 //KEY and VALUE to check on Metadata
@@ -49,6 +49,8 @@ promise.then(() => {
     }
 
     //Creating/Writing output file
+    if (!fs.existsSync('output')){ fs.mkdirSync('output');}
+
     fs.writeFileSync('./output/output_hashlist.json', JSON.stringify(withAttributeHashlist));
 
     console.log("Program completed succesfully\nOutput file: output/output_hashlist.json");
