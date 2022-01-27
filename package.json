@@ -1,0 +1,16 @@
+{
+  "name": "get-hashlist-of-given-attribute",
+  "version": "1.0.0",
+  "description": "Get hashlist of a given attribute from total hashlift. Works for standart NFT metadata of Solana blockchain",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "r.Oguzh",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^1.1.0",
+    "@metaplex/js": "^4.11.7",
+    "axios": "^0.25.0"
+  }
+}
