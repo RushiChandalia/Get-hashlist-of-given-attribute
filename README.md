@@ -9,7 +9,7 @@ Note: Works for Metaplex's NFT metadata standards.
 All you need is node.js and run the below command.
 
 ```bash
-npm build
+npm install
 ```
 
 ## Usage
